@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="288dp"
+        android:src="@drawable/undraw_online" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Mənim Kurslarım"
+        android:textAlignment="center"
+        android:textColor="#6159E6"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/mathField"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/ic_books"
+            android:fontFamily="@font/roboto_medium"
+            android:text="     Riyaziyyat"
+            android:textAlignment="textStart"
+            android:textColor="#9891FF"
+            android:textSize="18sp" />
+
+        <LinearLayout android:id="@+id/mathChooser"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView android:id="@+id/mathLec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Mühazirələr"
+                android:textAlignment="center"
+                android:textColor="#6862CC" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Tapşırıqlar"
+                android:textAlignment="center"
+                android:textColor="#FF6862CC" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/physField"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/ic_books"
+            android:fontFamily="@font/roboto_medium"
+            android:text="     Fizika"
+            android:textAlignment="textStart"
+            android:textColor="#9891FF"
+            android:textSize="18sp" />
+
+        <LinearLayout android:id="@+id/physChooser"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView android:id="@+id/physLec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Mühazirələr"
+                android:textAlignment="center"
+                android:textColor="#6862CC" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Tapşırıqlar"
+                android:textAlignment="center"
+                android:textColor="#FF6862CC" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/azField"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/ic_books"
+            android:fontFamily="@font/roboto_medium"
+            android:text="     Azərbaycan dili"
+            android:textAlignment="textStart"
+            android:textColor="#9891FF"
+            android:textSize="18sp" />
+
+        <LinearLayout android:id="@+id/azChooser"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView android:id="@+id/azLec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Mühazirələr"
+                android:textAlignment="center"
+                android:textColor="#6862CC" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Tapşırıqlar"
+                android:textAlignment="center"
+                android:textColor="#FF6862CC" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chemField"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/ic_books"
+            android:fontFamily="@font/roboto_medium"
+            android:text="     Kimya"
+            android:textAlignment="textStart"
+            android:textColor="#9891FF"
+            android:textSize="18sp" />
+
+        <LinearLayout android:id="@+id/chemChooser"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView android:id="@+id/chemLec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Mühazirələr"
+                android:textAlignment="center"
+                android:textColor="#6862CC" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Tapşırıqlar"
+                android:textAlignment="center"
+                android:textColor="#FF6862CC" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/histField"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/ic_books"
+            android:fontFamily="@font/roboto_medium"
+            android:text="     Tarix"
+            android:textAlignment="textStart"
+            android:textColor="#9891FF"
+            android:textSize="18sp" />
+
+        <LinearLayout android:id="@+id/histChooser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView android:id="@+id/histLec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Mühazirələr"
+                android:textAlignment="center"
+                android:textColor="#6862CC" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Tapşırıqlar"
+                android:textAlignment="center"
+                android:textColor="#FF6862CC" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
